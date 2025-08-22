@@ -1,0 +1,13 @@
+
+ url:http://serv-c.a.isdhsg.com/emergency/event/dispatch/list
+ heat:
+    Accept: Application/json, text/plain, */*
+    Accept-language: zh-CN,zh;q=0.9
+    Authorization: Bearer a7dd6485-9345-4c93-b0ab-bbab5695e043
+
+ data:
+    page: 1
+    limit: 10
+    eventType: ""
+    deptId: ""
+    startDate: "2025-03-01 00:00:00"
